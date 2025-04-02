@@ -1,7 +1,10 @@
 package com.library;
 
+import lombok.Getter;
+
 import java.util.List;
 
+@Getter
 public class NaverBookResponse {
     private String lastBuildDate;
     private int total;
